@@ -1,0 +1,24 @@
+body {
+    margin-top: 4em;
+    
+}
+
+
+h1 {
+    font-size: 30px;
+    font-family: 'Playfair Display';
+}
+
+
+.nav-pills .pill-1 .nav-link {
+    background-color: #27460A;
+    color: white;
+}
+
+.pill-1 .nav-link:hover {
+    background-color: #A2A989;
+}
+
+#container {
+    background-color: #C2D6A2;
+}
