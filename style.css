@@ -1,24 +1,96 @@
-body {
+/* body {
     margin-top: 4em;
-    
-}
-
+} */
 
 h1 {
-    font-size: 30px;
-    font-family: 'Playfair Display';
+    font-size: 25px;
+    font-family: 'Merriweather Sans';
+    font-weight: 100;
+    color: white;
+}
+
+h2 {
+    font-size: 18px;
+    font-family: 'Merriweather Sans';
+}
+
+/* Elements */
+
+#container {
+    background-color: rgb(151, 167, 101); 
+    margin-top: 30pt;
+    height: 530pt;
+    width: 275pt;
+    border: 3px solid rgb(240, 240, 240);
+    border-radius: 0.5em;
+    box-shadow: -5px 10px 10px rgb(211, 211, 211);
+}
+
+#logo {
+    margin-left: 8.5em;
+    margin-top: 2em;
 }
 
 
+#environmentcam {
+    transform: translateY(20%);
+}
+
+#capturebtn {
+    transform: translate(45%, 450%);
+}
+
+a {
+    color: black;
+}
+
+#navmenu {
+    transform: translateY(335%);
+    position: relative;
+}
+
+#navmenutwo {
+    transform: translateY(480%);
+    position: relative;
+}
+
 .nav-pills .pill-1 .nav-link {
-    background-color: #27460A;
+    background-color: rgb(14, 13, 13);
     color: white;
 }
 
 .pill-1 .nav-link:hover {
-    background-color: #A2A989;
+    background-color:  #E8E4D9;
 }
 
-#container {
-    background-color: #C2D6A2;
+#info {
+    margin-left: 1em;
+    margin-top: 4em;
+    text-transform: uppercase;
+    font-family: 'Merriweather Sans';
+}
+
+#info a:hover {
+    color: black;
+}
+
+#brand {
+    padding: 0.5em 0;
+}
+
+#ethics {
+    padding: 0.5em 0;
+}
+
+#certs {
+    padding: 0.5em 0;
+}
+
+#rating {
+    padding: 0.5em 0;
+}
+
+.text {
+    text-transform: none;
+    display: none;
 }
