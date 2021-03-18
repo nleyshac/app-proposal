@@ -1,5 +1,5 @@
 /* body {
-    margin-top: 4em;
+   font-size; 10px;
 } */
 
 h1 {
@@ -12,6 +12,12 @@ h1 {
 h2 {
     font-size: 18px;
     font-family: 'Merriweather Sans';
+}
+
+h3 {
+    font-size: 16px;
+    font-family: 'Merriweather Sans';
+    margin-bottom: 2em;
 }
 
 /* Elements */
@@ -31,13 +37,17 @@ h2 {
     margin-top: 2em;
 }
 
-
-#environmentcam {
-    transform: translateY(20%);
+#environment_cam {
+    transform: translateY(15%);
 }
 
+#prod_img {
+    transform: translateY(10%);
+}
+
+
 #capturebtn {
-    transform: translate(45%, 450%);
+    transform: translate(45%, 380%);
 }
 
 a {
@@ -45,13 +55,14 @@ a {
 }
 
 #navmenu {
-    transform: translateY(335%);
-    position: relative;
+    transform: translateY(315%);
+    flex-direction: column;
+    
 }
 
 #navmenutwo {
-    transform: translateY(480%);
-    position: relative;
+    transform: translateY(265%);
+    flex-direction: column;
 }
 
 .nav-pills .pill-1 .nav-link {
@@ -60,14 +71,18 @@ a {
 }
 
 .pill-1 .nav-link:hover {
-    background-color:  #E8E4D9;
+    background-color:  rgb(83, 94, 53); 
 }
 
 #info {
     margin-left: 1em;
-    margin-top: 4em;
+    margin-top: 3em;
     text-transform: uppercase;
     font-family: 'Merriweather Sans';
+}
+
+#info a {
+    padding: 1em;
 }
 
 #info a:hover {
@@ -75,22 +90,44 @@ a {
 }
 
 #brand {
-    padding: 0.5em 0;
+    background-color:#899b57; 
+    display: block;
+    margin-left: -1em;
+    border-bottom: 1px solid rgb(52, 59, 33, 0.5);
 }
 
 #ethics {
-    padding: 0.5em 0;
+    background-color:#899b57;
+    display: block;
+    margin-left: -1em;
+    border: 1px solid rgb(52, 59, 33, 0.5);
 }
 
+
 #certs {
-    padding: 0.5em 0;
+    background-color:#899b57; 
+    display: block;
+    margin-left: -1em;
+    border: 1px solid rgb(52, 59, 33, 0.5);
 }
 
 #rating {
-    padding: 0.5em 0;
+    background-color: #899b57;
+    display: block;
+    margin-left: -1em;
+    border: 1px solid rgb(52, 59, 33, 0.5);
 }
 
+
 .text {
+    font-size: 15px;
     text-transform: none;
     display: none;
+    display: block;
+    background-color: rgb(118, 134, 74); 
+    margin-left: -1em;
+    margin-bottom: 0em;
+    color: black;
+    padding: 1em;
 }
+
