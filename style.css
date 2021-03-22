@@ -25,16 +25,16 @@ h3 {
 
 
 #intro_head {
-    margin-top: 2em;
+    margin-top: -6em;
 }
 
 /* Elements */
 
 #screen {
     background-color: rgb(129, 143, 86); 
-    margin-top: 30pt;
-    height: 530pt;
-    width: 275pt;
+    margin-top: 22px;
+    height: 706.6px;
+    width: 366.6px;
     border: 3px solid rgb(240, 240, 240);
     border-radius: 0.5em;
     box-shadow: -5px 10px 10px rgb(211, 211, 211);
@@ -42,17 +42,21 @@ h3 {
 }
 
 #logo_lg {
-    margin-left: 6em;
-    margin-top: 4.5em;
+    /* margin-left: 6em; */
+    margin-top: 4em;
 }
 
 #logo_sm {
-    margin-left: 8.5em;
+    margin-left: 3em;
     margin-top: 3em;
 }
 
 #start_btn {
     margin-top: 1.5em;
+}
+
+.btn-lg {
+    font-size: 1rem;
 }
 
 .btn-lg:hover {
@@ -67,10 +71,10 @@ h3 {
 }
 
 
-/* Webcam */
+/* Livecam */
 
 #container {
-    transform: translateY(20%);
+    transform: translateY(-20%);
     width: 330px;
     height: 250px;
     border: 5px rgb(255, 255, 255) solid;
@@ -82,13 +86,17 @@ h3 {
     margin-left: -3.42em;
 }
 
+#camera_text {
+    margin-top: -3em;
+}
+
 #prod_img {
     transform: translateY(10%);
 }
 
 
 #capturebtn {
-    transform: translate(43%, 150%);
+    transform: translate(43%, 100%);
 }
 
 a {
@@ -99,16 +107,12 @@ a {
     position: absolute;
     width: 100%;
     bottom: 0;
-    /* transform: translateY(315%);
-    flex-direction: column; */
-    
 }
 
 #navmenutwo {
     position: absolute;
     width: 100%;
     bottom: 0;
-    /* margin-left: -0.9em; */
 }
 
 .nav-pills .pill-1 .nav-link {
@@ -129,46 +133,39 @@ a {
     font-style: italic;
 }
 
-
 #info {
-    /* margin-left: 0.9em; */
     margin-top: 3em;
     text-transform: uppercase;
     font-family: 'Merriweather Sans';
 }
 
-#info a {
+#content a {
     padding: 1em;
 }
 
-#info a:hover {
+#content a:hover {
     font-size: 18px;
     text-decoration: none;
 }
 
 #brand {
     background-color:rgb(195, 204, 146); 
-    display: block;
-    /* margin-left: -1em; */
+    display: block; 
 }
 
 #ethics {
-    background-color:rgb(195, 204, 146); 
-    display: block;
-    /* margin-left: -1em; */
+    background-color:#c3cc92; 
+    display: block; 
 }
-
 
 #certs {
     background-color: rgb(195, 204, 146); 
     display: block;
-    /* margin-left: -1em; */
 }
 
 #rating {
     background-color:rgb(195, 204, 146);   
-    display: block;
-    /* margin-left: -1em; */
+    display: block;  
 }
 
 
@@ -177,8 +174,7 @@ a {
     text-transform: none;
     display: none;
     display: block;
-    background-color: rgb(223, 233, 167); 
-    /* margin-left: -1em; */
+    background-color: #dfe9a7; 
     margin-bottom: 0em;
     color: black;
     padding: 1em;
