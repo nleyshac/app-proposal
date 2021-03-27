@@ -22,7 +22,11 @@ h3 {
     padding: 1em;
 }
 
+h4 {
+    font-size: 20px;
+    font-family: 'Merriweather Sans';
 
+}
 
 #intro_head {
     margin-top: -6em;
@@ -138,6 +142,22 @@ a {
     text-transform: uppercase;
     font-family: 'Merriweather Sans';
 }
+
+.card-footer:hover {
+    background-color: rgb(195, 204, 146); 
+}
+
+.card-text {
+    display: none;
+}
+
+.card-footer {
+    padding: 0.5em;
+    text-align: center;
+}
+
+
+
 
 #content a {
     padding: 1em;

@@ -14,13 +14,6 @@
 
 
 
-
-
-
-
-
-
-
 // Product.html Slide Toggles
 
 $(document).on("click", "#brand", function(){
@@ -59,3 +52,8 @@ function closed() {
 };
 
 $(window).on("load", closed); 
+
+
+
+// Explore page
+
