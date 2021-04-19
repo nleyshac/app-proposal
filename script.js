@@ -1,3 +1,8 @@
+// Login page 
+$(document).on("click", "#remember", function(){
+    $("input").removeAttr("placeholder");
+});
+
 // Product.html Slide Toggles
 
 $(document).on("click", "#brand", function(){
